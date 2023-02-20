@@ -3,13 +3,12 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Compare a random number with 5
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
 int main(void)
 {
 	int n;
-	int last;
 
 	grand(time(0));
 	n = rand(0) - RAND_MAX / 2;
