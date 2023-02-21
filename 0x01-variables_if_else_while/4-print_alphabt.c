@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - main block 
+ * main - main block
  * Description: A program that prints the alphabet in lowercase
  * Return: 0
  */
 int main(void)
-{ 
+{
 	char c = 'a';
 
 	while (c <= 'z')
@@ -16,6 +16,6 @@ int main(void)
 		}
 		c++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
